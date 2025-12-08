@@ -3,14 +3,23 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>leo bovey : portfolio</title>
+     <meta
+      name="description"
+      content="Portfolio of Leo Bovey, Software Developer specializing in creating engaging and user-friendly websites and applications."
+    />
+    <meta
+      name="keywords"
+      content="leo bovey, software developer, portfolio, web development, html, css, javascript, python, bootstrap"
+    />
+    <title>Leo bovey : portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
   </head>
   <body>
-
+<div id="navbar">
     <nav class="navbar navbar-expand-sm bg-body-tertiary">
   <div class="container">
-    <a class="navbar-brand" href="index.html">leo bovey</a>
+    <a class="navbar-brand" href="index.html">Leo bovey : portfolio</a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -32,6 +41,64 @@
       </ul>
     </div>
   </div>
+</div>
+  <!-- header -->
+<header id="hero" class="container ">
+    <!-- section with hero image -->
+    <section class="row">
+        <!-- text-center class used to centre all text inside column -->
+        <div class="col-6 col-md-12 text-center">
+            <h1 class="display-4 my-4">Leo bovey</h1>
+            <!-- mb-5 gives extra margin spacing under subheading -->
+            <h2 class="display-6 mb-5">Software Developer</h2>
+            <p>
+                Hello! I am leo, Im a
+                <strong>passionate Software Developer</strong>,
+                I'm dedicated to building engaging, user-friendly websites and applications. 
+                Eager to for opportunities to develop and grow.
+            </p>
+            <!-- mb-5 gives extra margin spacing under lead text -->
+            <p class="lead mb-5">Let's create the beginning of your jorney on the internet</p>
+        </div>
+        <div id = "code_example" class="col-6 col-md-12">
+            <!-- img-fluid class makes the image responsive to its container -->
+            <img src="assets\images\html_example.PNG" class="img-fluid d-block mx-auto" alt="image of html code example">
+    </section>
+</header>
+
+<!-- main content -->
+<main>
+    <!-- About section links to #about href in navbar -->
+    <section id="about" class="container">
+        <div class="row">
+            <!-- my-4 used to add top and bottom margin to heading -->
+            <div class="col-12 text-center my-4">
+                <h2 class="display-5">About Me</h2>
+            </div>
+            <!-- mb-4 used to add margin under image -->
+            <div id="portrait" class="col-6 col-sm-12 mb-4">
+                <!-- img-fluid class makes the image responsive to its container -->
+                <img src="assets\images\leo_turkey_hat.jpg" class="img-fluid d-block mx-auto" alt="leo bovey photo">
+            </div>
+            <!-- mb-4 used to add margin under text -->
+            <div class="col-12 col-md-6 mb-4">
+                <p>
+                    As a dedicated software developer, I specialise in createing
+                    intresting and creative user interfaces that prioritize user engagement
+                    and functionality. I have a skill set of HTML, CSS, Python, JavaScript
+                    JavaScript, and Bootstrap, to develop responsive and interesting designs.
+                </p>
+                <p>
+                    I am on the lookout for opportunities to develop 
+                    and refine my skills by creating websites for
+                    individuals, businesses, or projects that need a strong online presence.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- portfolio section starts here -->
+
+</main>
 </nav>
 
 
