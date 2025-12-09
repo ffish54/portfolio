@@ -30,6 +30,12 @@ body {
     display: block;
     margin: 20px auto 0;
 }
+
+.btn{
+    align-self: center;
+}
+
+
  @media (max-width: 768px) {
     #portrait img {
         max-width: 85%;
