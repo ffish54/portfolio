@@ -20,15 +20,18 @@ body {
 
 #code_example img {
    padding-top: 20px;
-   align-self: center;
    display: block;
    margin: 20px auto 0;
     
 }
 
 #portrait img {
-    max-width: 75%;
-    align-self: center;
+    max-width: 25%;
     display: block;
     margin: 20px auto 0;
+}
+ @media (max-width: 768px) {
+    #portrait img {
+        max-width: 85%;
+    }
 }
