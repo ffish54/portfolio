@@ -1,3 +1,12 @@
+/*	
+#79c59d	 green accent
+#3a3a3a  dark grey
+#2f8b56	 Mid green	
+#1f5a39  Dark green
+*/
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+
 #navbar{ 
     position: sticky;
     top: 0;
@@ -7,22 +16,43 @@
 }
 
 #navbar .navbar {
-    background-color: #4b4d4b !important;
+    background-color: #3a3a3a !important;
     color: #fff8e8 !important;
 }
 
 body { 
     margin: 0;
-    font-family: Arial, sans-serif;
-    background-color: #3a3a3a;
+    font-family: poppins, sans-serif;
+    background-color: #0f2a1f;
     color: #fff8e8;
 }
 
-#code_example img {
-   padding-top: 20px;
-   display: block;
-   margin: 20px auto 0;
+#about {
+    background-color: #3a3a3a;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+#hero {
+    background-image: url('assets\images\code_hero.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 500px;
+    display: flex;
+    background-position: 50% 70%;
     
+}
+
+#contact {
+    background-color: #3a3a3a;
+    padding: 40px 20px;
+    border-radius: 10px;
+}
+
+h1, h2{
+    font-family: 'DM Serif Display', serif;
+    font-weight: normal;
+    color: #2f8b56;
 }
 
 #portrait img {
@@ -34,6 +64,8 @@ body {
 .btn{
     align-self: center;
 }
+
+
 
 
  @media (max-width: 768px) {
