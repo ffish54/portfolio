@@ -34,20 +34,22 @@ body {
 }
 
 #hero {
-    background-image: url('assets\images\code_hero.jpg');
+    background-image: url('../images/code_hero.jpg');
     background-size: cover;
     background-position: center;
     min-height: 500px;
     display: flex;
     background-position: 50% 70%;
+    border-radius: 20px;
+    opacity: 0.7;
     
 }
 
 #contact {
     background-color: #3a3a3a;
     border-radius: 15px;
-    text-align: center;
     
+
 }
 
 h1, h2{
