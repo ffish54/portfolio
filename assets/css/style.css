@@ -30,7 +30,7 @@ body {
 #about {
     background-color: #3a3a3a;
     padding: 40px 20px;
-    border-radius: 10px;
+    
 }
 
 #hero {
@@ -40,17 +40,33 @@ body {
     min-height: 500px;
     display: flex;
     background-position: 50% 70%;
-    border-radius: 20px;
+    
     opacity: 0.7;
     
 }
 
 #contact {
     background-color: #3a3a3a;
-    border-radius: 15px;
     
-
+    
 }
+
+#websites .card-title {
+    font-weight: normal;
+    color: #2f8b56;
+    font-size: 1.2rem;
+    
+}
+
+#websites .btn:hover {
+    background-color: #79c59d;
+    color: #1f5a39;
+}
+
+#websites .card-text {
+    min-height: 120px;
+}
+
 
 h1, h2{
     font-family: 'DM Serif Display', serif;
@@ -69,10 +85,19 @@ h1, h2{
 }
 
 
-
+.sharp-corners, .sharp-corners * {
+    border-radius: 0px;
+}
 
  @media (max-width: 768px) {
     #portrait img {
         max-width: 85%;
     }
 }
+
+@media (max-width: 1200px) {
+    #websites .card-text {
+    min-height: auto;
+}
+}
+
